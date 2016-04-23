@@ -1,5 +1,5 @@
 # 2016 Database
 ## Generate pdf from markdown
 ```sh
-pandoc -o report.pdf report.md
+pandoc report.md -o report.pdf -V documentclass=ltjarticle --latex-engine=lualatex
 ```
